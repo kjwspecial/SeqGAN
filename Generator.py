@@ -113,13 +113,3 @@ class Generator(nn.Module):
 
         return loss
 
-
-# In[ ]:
-
-
-class Discriminator(nn.Module):
-    def __init__(self,embedding_dim, vocab_size, filters_sizes, num_filters, padding_idx, gpu=False, dropout = 0.2):
-        super(Discriminator,self)__init__()
-        self.embedding_dim = embedding_dim
-        self.
-

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
+# In[2]:
 
 
 from multiprocessing import Pool # process 병렬처리
@@ -11,7 +11,7 @@ import os
 import random
 from nltk.translate.bleu_score import SmoothingFunction
 
-from metrics.basic import Metrics
+from basic import Metrics
 
 
 # In[9]:

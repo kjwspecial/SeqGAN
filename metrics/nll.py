@@ -1,7 +1,16 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[4]:
+
+
 import torch
 import torch.nn as nn
 import config as cfg
 from metrics.basic import Metrics
+
+
+# In[5]:
 
 
 class NLL(Metrics):
@@ -40,3 +49,10 @@ class NLL(Metrics):
             total_loss += loss.item()
         return round(total_loss / len(data_loader), 4)
     
+
+
+# In[ ]:
+
+
+
+
