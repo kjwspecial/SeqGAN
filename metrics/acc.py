@@ -1,16 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import torch
 import import_ipynb
 from basic import Metrics
-
-
-# In[ ]:
-
 
 class ACC(Metrics):
     def __init__(self, if_use = True, gpu=True):
